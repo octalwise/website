@@ -2,48 +2,70 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Octalwise</title>
 
-        <style>
-            * {
-              font-family: sans-serif;
-            }
+        <script src="https://unpkg.com/feather-icons">
+        </script>
 
-            html {
-              color-scheme: light dark;
-              line-height: 1.2;
-              text-align: center;
-            }
+        <link rel="stylesheet" href="https://raven.ayukmr.com/raven.css">
+        <link rel="stylesheet" href="styles.css">
 
-            @media (prefers-color-scheme: dark) {
-              html {
-                background: #1c1c1c;
-              }
-            }
+        <link
+            rel="icon"
+            href="assets/icon.png"
+            media="(prefers-color-scheme: light)"
+        >
 
-            body {
-              margin: 200px auto;
-              width: fit-content;
-            }
-
-            h1 {
-              font-size: 45px;
-            }
-
-            img {
-              filter: invert(1);
-            }
-
-            @media (prefers-color-scheme: dark) {
-              img {
-                filter: invert(0);
-              }
-            }
-        </style>
+        <link
+            rel="icon"
+            href="assets/icon-dark.png"
+            media="(prefers-color-scheme: dark)"
+        >
     </head>
 
     <body>
-        <h1>Octalwise</h1>
-        <img src="assets/octalwise.png" width="450">
+        <main>
+            <header>
+                <h1>
+                    <picture id="logo">
+                        <source srcset="assets/logo-dark.png" media="(prefers-color-scheme: dark)">
+                        <img src="assets/logo.png">
+                    </picture>
+
+                    Octalwise
+                </h1>
+
+                <i data-feather="github"></i>
+                <a href="https://github.com/octalwise">github/octalwise</a>
+
+                <br>
+
+                <i data-feather="cloud"></i>
+                <a href="https://apps.apple.com/us/developer/octalwise/id1717359953">apple/octalwise</a>
+
+                <br>
+
+                <i data-feather="mail"></i>
+                <a href="mailto:contact@octalwise.com">contact@octalwise.com</a>
+            </header>
+
+            <section>
+                <h2>Apps</h2>
+
+                <ul>
+                    <li>
+                        <a href="tracks">Tracks</a>, an iOS app for realtime Caltrain tracking and planning trips.
+                    </li>
+
+                    <li>
+                        <a href="acidity">Acidity</a>, a Safari extension for navigating to archived versions of pages.
+                    </li>
+                </ul>
+            </section>
+
+            <script>feather.replace();</script>
+        </main>
     </body>
 </html>
