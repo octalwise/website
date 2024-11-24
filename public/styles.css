@@ -1,8 +1,3 @@
-body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
 .feather {
   width: 16px;
   margin-right: 1px;
@@ -29,6 +24,11 @@ body {
   transition: opacity 0.075s linear;
 
   mix-blend-mode: difference;
+}
+
+body:has(#background) {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 @media only screen and (max-width: 1024px) {
