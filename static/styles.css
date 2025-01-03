@@ -28,10 +28,11 @@ a:has(#logo) {
   bottom:   -375px;
   right:    -165px;
 
-  opacity:    0.05;
-  transition: opacity 0.075s linear;
+  opacity:     0.05;
+  transition:  opacity 0.075s linear;
 
   mix-blend-mode: difference;
+  pointer-events: none;
 }
 
 body:has(#background) {
