@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+<header>
+    {{ macros::title(title="Octalwise") }}
+
+    <i data-feather="github"></i>
+    <a href="https://github.com/octalwise">github/octalwise</a>
+
+    <br>
+
+    <i data-feather="cloud"></i>
+    <a href="https://apps.apple.com/us/developer/octalwise/id1717359953">apple/octalwise</a>
+
+    <br>
+
+    <i data-feather="mail"></i>
+    <a href="mailto:contact@octalwise.com">contact@octalwise.com</a>
+</header>
+
+<section>
+    <h2>Apps</h2>
+
+    <ul>
+        <li>
+            <a href="tracks">Tracks</a>, an iOS app for live Caltrain tracking and trip planning.
+        </li>
+
+        <li>
+            <a href="acidity">Acidity</a>, a Safari extension for navigating to archived versions of pages.
+        </li>
+    </ul>
+</section>
+
+<img id="background" src="assets/background.svg">
+{% endblock %}

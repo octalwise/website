@@ -4,6 +4,10 @@
   vertical-align: top;
 }
 
+a:has(#logo) {
+  text-decoration: none;
+}
+
 #logo {
   display: inline-block;
   vertical-align: bottom;
