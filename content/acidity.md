@@ -9,7 +9,7 @@ title: Acidity
 
 Acidity is a Safari extension for navigating to archived versions of pages.
 
-<img src="acidity/assets/archive.png" alt="Screenshot of archived version of New York Times article.">
+![Screenshot of archived version of New York Times article.](acidity/assets/archive.png)
 {% end %}
 
 {% section() %}
@@ -18,7 +18,7 @@ Acidity is a Safari extension for navigating to archived versions of pages.
 {% details(summary="How do I change the extension settings?") %}
 You can change the extension settings by opening preferences, switching to the extensions panel, selecting Acidity, and clicking the settings button.
 
-<img src="acidity/assets/settings.png">
+![Screenshot of the extension in Safari settings.](acidity/assets/settings.png)
 {% end %}
 
 {% details(summary="What are matches and how do I use them?") %}
