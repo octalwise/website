@@ -3,7 +3,7 @@
 git clone -b next https://github.com/getzola/zola
 cd zola
 
-cargo build --release --locked
+cargo build --release
 export PATH="$PWD/target/release:$PATH"
 
 cd ..
