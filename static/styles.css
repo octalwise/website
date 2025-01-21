@@ -40,6 +40,12 @@ body:has(#background) {
   overflow-y: hidden;
 }
 
+@media (prefers-color-scheme: dark) {
+  #background {
+    opacity: 3%;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   #background {
     opacity: 0%;
