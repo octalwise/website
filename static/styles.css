@@ -32,8 +32,7 @@ a:has(#logo) {
   bottom:   -375px;
   right:    -165px;
 
-  opacity:     5%;
-  transition:  opacity 0.075s linear;
+  opacity: 5%;
 
   mix-blend-mode: difference;
   pointer-events: none;
@@ -52,6 +51,6 @@ body:has(#background) {
 
 @media only screen and (max-width: 1024px) {
   #background {
-    opacity: 0%;
+    display: none;
   }
 }
