@@ -8,6 +8,10 @@ h1 {
   vertical-align: top;
 }
 
+.phone {
+  border-radius: 8px;
+}
+
 #logo {
   display: inline-block;
   vertical-align: bottom;
