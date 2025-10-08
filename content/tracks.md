@@ -6,11 +6,13 @@ title: Tracks
 {{ title(title="Tracks") }}
 
 {{ icon(name="download") }} [Download on the App Store](https://apps.apple.com/app/tracks-live-caltrain-app/id6480351976)
+<br>
+{{ icon(name="play") }} [Download on the Play Store](https://play.google.com/store/apps/details?id=com.octalwise.tracks)
 
-Tracks is an iOS app for live Caltrain tracking and trip planning.
+Tracks is a pair of native iOS and Android apps for live Caltrain tracking and trip planning.
 
-<img src="tracks/assets/stations.png" width="40%" alt="Screenshot of list of trains at different stations.">
-<img src="tracks/assets/train.png"    width="40%" alt="Screenshot of list of stops for a train.">
+<img src="tracks/assets/ios.png"     width="40%"    alt="Screenshot of list of trains at different stations.">
+<img src="tracks/assets/android.png" width="40.11%" alt="Screenshot of list of stops for a train.">
 {% end %}
 
 {% section() %}
