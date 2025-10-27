@@ -2,14 +2,14 @@ h1 {
   font-family: system-ui, 'Helvetica Neue', sans-serif;
 }
 
+img {
+  border-radius: 8px;
+}
+
 .lucide {
   width: 16px;
   margin-right: 1px;
   vertical-align: top;
-}
-
-.phone {
-  border-radius: 8px;
 }
 
 #logo {
@@ -28,13 +28,13 @@ a:has(#logo) {
 }
 
 #background {
-  width:     1000px;
-  height:    1000px;
+  width: 1000px;
+  height: 1000px;
   transform: scale(1.1);
 
   position: absolute;
-  bottom:   -375px;
-  right:    -165px;
+  bottom: -375px;
+  right: -165px;
 
   opacity: 5%;
 

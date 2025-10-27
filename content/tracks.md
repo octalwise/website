@@ -11,8 +11,8 @@ title: Tracks
 
 Tracks is a pair of native iOS and Android apps for live Caltrain tracking and trip planning.
 
-<img src="tracks/assets/ios.png"     width="40%"    class="phone" alt="Screenshot of list of trains at different stations.">
-<img src="tracks/assets/android.png" width="40.11%" class="phone" alt="Screenshot of list of stops for a train.">
+<img src="tracks/assets/ios.png"     width="40%"    alt="Screenshot of list of trains at different stations.">
+<img src="tracks/assets/android.png" width="40.11%" alt="Screenshot of list of stops for a train.">
 {% end %}
 
 {% section() %}

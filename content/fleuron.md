@@ -9,8 +9,8 @@ title: Fleuron
 
 Fleuron is an Android app for the Miniflux feed reader.
 
-<img src="fleuron/assets/feeds.png" width="40%" class="phone" alt="Screenshot of list of feeds.">
-<img src="fleuron/assets/entry.png" width="40%" class="phone" alt="Screenshot of reading view.">
+<img src="fleuron/assets/feeds.png" width="40%" alt="Screenshot of list of feeds.">
+<img src="fleuron/assets/entry.png" width="40%" alt="Screenshot of reading view.">
 {% end %}
 
 {% section() %}
