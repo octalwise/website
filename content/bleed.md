@@ -5,7 +5,7 @@ title: Bleed
 {% header() %}
 {{ title(title="Bleed") }}
 
-{{ icon(name="download") }} [Download on the App Store](https://apple.com)
+{{ icon(name="download") }} [Download on the App Store](https://apps.apple.com/app/bleed-screen-battery-effect/id6754545481)
 
 Bleed is a tiny macOS app that shows a screen indicator for low battery.
 
