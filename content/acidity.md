@@ -6,7 +6,9 @@ title: Acidity
 {{ title(title="Acidity") }}
 
 {{ icon(name="download") }} [Download on the App Store](https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023)
+{% end %}
 
+{% section() %}
 Acidity is a Safari extension for navigating to archived versions of pages.
 
 ![Screenshot of archived version of New York Times article.](acidity/assets/archive.png)

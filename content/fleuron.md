@@ -6,7 +6,9 @@ title: Fleuron
 {{ title(title="Fleuron") }}
 
 {{ icon(name="download") }} [Download on the Play Store](https://play.google.com/store/apps/details?id=com.octalwise.fleuron)
+{% end %}
 
+{% section() %}
 Fleuron is an Android app for the Miniflux feed reader.
 
 <img src="fleuron/assets/feeds.png" width="40%" alt="Screenshot of list of feeds.">
