@@ -1,13 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
-<header>
-    <h1>404: Not Found</h1>
-    <p>The requested page was unable to be found.</p>
+<div>
+    <header>
+        <h1>404: Not Found</h1>
+    </header>
 
-    <i data-lucide="corner-down-left"></i>
-    <a href="/">Return to home</a>
-</header>
+    <section>
+        <p>The requested page was unable to be found.</p>
+
+        <i data-lucide="corner-down-left"></i>
+        <a href="/">Return to home</a>
+    </section>
+</div>
 
 <img id="background" src="/assets/background.svg">
 {% endblock %}
