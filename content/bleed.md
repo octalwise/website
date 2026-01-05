@@ -5,7 +5,7 @@ title: Bleed
 {% header() %}
 {{ title(title="Bleed") }}
 
-{{ icon(name="download") }} [Download on the App Store](https://apps.apple.com/app/bleed-screen-battery-effect/id6754545481)
+{{ icon_link(icon="download", text="Download on the App Store", link="https://apps.apple.com/app/bleed-screen-battery-effect/id6754545481") }}
 {% end %}
 
 {% section() %}

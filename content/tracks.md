@@ -5,9 +5,9 @@ title: Tracks
 {% header() %}
 {{ title(title="Tracks") }}
 
-{{ icon(name="download") }} [Download on the App Store](https://apps.apple.com/app/tracks-live-caltrain-app/id6480351976)
+{{ icon_link(icon="download", text="Download on the App Store", link="https://apps.apple.com/app/tracks-live-caltrain-app/id6480351976") }}
 <br>
-{{ icon(name="play") }} [Download on the Play Store](https://play.google.com/store/apps/details?id=com.octalwise.tracks)
+{{ icon_link(icon="play", text="Download on the Play Store", link="https://play.google.com/store/apps/details?id=com.octalwise.tracks") }}
 {% end %}
 
 {% section() %}

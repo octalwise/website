@@ -5,7 +5,7 @@ title: Acidity
 {% header() %}
 {{ title(title="Acidity") }}
 
-{{ icon(name="download") }} [Download on the App Store](https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023)
+{{ icon_link(icon="download", text="Download on the App Store", link="https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023") }}
 {% end %}
 
 {% section() %}

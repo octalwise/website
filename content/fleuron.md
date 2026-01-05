@@ -5,7 +5,7 @@ title: Fleuron
 {% header() %}
 {{ title(title="Fleuron") }}
 
-{{ icon(name="download") }} [Download on the Play Store](https://play.google.com/store/apps/details?id=com.octalwise.fleuron)
+{{ icon_link(icon="download", text="Download on the Play Store", link="https://play.google.com/store/apps/details?id=com.octalwise.fleuron") }}
 {% end %}
 
 {% section() %}
