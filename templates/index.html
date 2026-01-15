@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 {% import "macros.html" as macros %}
 
+{% block head %}
+<style>
+    section {
+      line-height: 1.6;
+    }
+</style>
+{% endblock %}
+
 {% block content %}
 <header>
     {{ macros::title(title="Octalwise") }}

@@ -6,10 +6,12 @@
 
         <title>{{ page.title | default(value="Octalwise") }}</title>
 
+        {% block head %} {% endblock %}
+
         <script src="https://unpkg.com/lucide"></script>
 
         <link rel="stylesheet" href="https://raven.ayukmr.com/raven.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/styles.css">
 
         <link
             rel="icon"
