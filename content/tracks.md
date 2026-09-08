@@ -11,7 +11,8 @@ title: Tracks
 {% end %}
 
 {% section() %}
-Tracks is a pair of native iOS and Android apps for live Caltrain tracking and trip planning.
+Tracks is a pair of native iOS and Android apps for live Caltrain tracking and trip planning. \
+A web version, based on the Android client, is also available [here](https://tracks.octalwise.com).
 
 <img src="tracks/assets/ios.png"     width="40%"    alt="Screenshot of list of trains at different stations.">
 <img src="tracks/assets/android.png" width="40.11%" alt="Screenshot of list of stops for a train.">
