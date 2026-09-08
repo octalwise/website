@@ -5,6 +5,8 @@ title: Fleuron
 {% header() %}
 {{ title(title="Fleuron") }}
 
+{{ icon_link(icon="github", text="Open source on GitHub", link="https://github.com/octalwise/fleuron") }}
+<br>
 {{ icon_link(icon="download", text="Download on the Play Store", link="https://play.google.com/store/apps/details?id=com.octalwise.fleuron") }}
 {% end %}
 

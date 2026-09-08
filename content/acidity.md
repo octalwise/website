@@ -5,6 +5,8 @@ title: Acidity
 {% header() %}
 {{ title(title="Acidity") }}
 
+{{ icon_link(icon="github", text="Open source on GitHub", link="https://github.com/octalwise/acidity") }}
+<br>
 {{ icon_link(icon="download", text="Download on the App Store", link="https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023") }}
 {% end %}
 

@@ -5,6 +5,8 @@ title: Bleed
 {% header() %}
 {{ title(title="Bleed") }}
 
+{{ icon_link(icon="github", text="Open source on GitHub", link="https://github.com/octalwise/bleed") }}
+<br>
 {{ icon_link(icon="download", text="Download on the App Store", link="https://apps.apple.com/app/bleed-screen-battery-effect/id6754545481") }}
 {% end %}
 

@@ -5,6 +5,8 @@ title: Tracks
 {% header() %}
 {{ title(title="Tracks") }}
 
+{{ icon_link(icon="github", text="Open source on GitHub", link="https://github.com/octalwise/tracks") }}
+<br>
 {{ icon_link(icon="download", text="Download on the App Store", link="https://apps.apple.com/app/tracks-live-caltrain-app/id6480351976") }}
 <br>
 {{ icon_link(icon="play", text="Download on the Play Store", link="https://play.google.com/store/apps/details?id=com.octalwise.tracks") }}
