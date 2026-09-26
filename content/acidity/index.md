@@ -7,11 +7,13 @@ title: Acidity
 
 {{ icon_link(icon="github", text="Open source on GitHub", link="https://github.com/octalwise/acidity") }}
 <br>
-{{ icon_link(icon="download", text="Download on the App Store", link="https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023") }}
+{{ icon_link(icon="compass", text="Download on the App Store", link="https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023") }}
+<br>
+{{ icon_link(icon="chrome", text="Install on the Chrome Web Store", link="https://chromewebstore.google.com/detail/acidity/gnohoioiideagnipcjmncegolnfdkfbp") }}
 {% end %}
 
 {% section() %}
-Acidity is a Safari extension for navigating to archived versions of pages.
+Acidity is a browser extension for navigating to archived versions of pages.
 
 ![Screenshot of archived version of New York Times article.](acidity/assets/archive.png)
 {% end %}
@@ -19,7 +21,7 @@ Acidity is a Safari extension for navigating to archived versions of pages.
 {% section() %}
 ## Questions
 
-### How do I change the extension settings?
+### How do I change the extension settings in Safari?
 
 You can change the extension settings by opening preferences, switching to the extensions panel, selecting Acidity, and clicking the settings button.
 

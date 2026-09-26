@@ -10,6 +10,8 @@ title: Tracks
 {{ icon_link(icon="download", text="Download on the App Store", link="https://apps.apple.com/app/tracks-live-caltrain-app/id6480351976") }}
 <br>
 {{ icon_link(icon="play", text="Download on the Play Store", link="https://play.google.com/store/apps/details?id=com.octalwise.tracks") }}
+<br>
+{{ icon_link(icon="compass", text="Open on the web", link="https://tracks.octalwise.com") }}
 {% end %}
 
 {% section() %}
